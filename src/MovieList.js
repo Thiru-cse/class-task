@@ -22,6 +22,7 @@ export function MovieList() {
   }).then(()=> getMovies());
 };
 
+
   useEffect(getMovies, []); 
 
   return (
@@ -35,6 +36,7 @@ export function MovieList() {
             rating={mv.rating}
             summary={mv.summary}
             id={mv.id}
+
             DeleteMovieButton={
             <IconButton
             className="movie-show-button"
@@ -44,6 +46,7 @@ export function MovieList() {
             <DeleteIcon />
           </IconButton>
           }
+          
             setMovies={setMovies}
             movies={movies}
           />

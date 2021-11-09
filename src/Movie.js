@@ -47,12 +47,14 @@ export function Movie({ name, poster, rating, summary , id, setMovies ,movies,in
        </CardContent>
        < CardActions>
         <Counter />
+
         <IconButton
               className="movie-show-button"
               color="error"
               aria-label="delete movie">
               <DeleteIcon />
             </IconButton>
+            
         <IconButton
               className="movie-show-button"
                onClick={() => history.push("/movies/edit/"+id) }
