@@ -1,0 +1,42 @@
+[
+ {
+  "id": "100",
+  "name": "Interstellar",
+  "poster": "https://m.media-amazon.com/images/I/A1JVqNMI7UL._SL1500_.jpg",
+  "rating": 8.6,
+  "summary": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper,is tasked to pilot a spacecraft,along with a team of researchers,to find a new planet for humans.",
+  "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E"
+ },
+ {
+  "id": "101",
+  "name": "Malik",
+  "poster": "https://static.toiimg.com/photo/msid-80750425/80750425.jpg?594893",
+  "rating": 8.4,
+  "summary": "A young man rises to prominence through his unswerving fight against political and police corruption in his village.",
+  "trailer": "https://www.youtube.com/embed/41g6MgPkH7E"
+ },
+ {
+  "id": "102",
+  "name": "Bahubali",
+  "poster": "https://flxt.tmsimg.com/assets/p11546593_p_v10_af.jpg",
+  "rating": 8,
+  "summary": "In the kingdom of Mahishmati, Shivudu falls in love with a young warrior woman. While trying to woo her, he learns about the conflict-ridden past of his family and his true legacy.",
+  "trailer": "https://www.youtube.com/embed/CYcKs5fknb8"
+ },
+ {
+  "id": "103",
+  "name": "The Dark Knight",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+  "rating": 9,
+  "summary": "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker,a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.",
+  "trailer": "https://www.youtube.com/embed/LDG9bisJEaI"
+ },
+ {
+  "id": "104",
+  "name": "Birds Of Prey",
+  "poster": "https://resizing.flixster.com/AvapwqD9kdFHB3mmFfFKKOn5Xbs=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2ZkNjI0NWUzLWVlOGEtNGM3Yi05MjQzLTVjMzE4NWYzZmI5Mi53ZWJw",
+  "rating": 6.1,
+  "summary": "After being thrown out in the streets by Joker, Harley struggles to pick herself up.However, Harley teams up with Huntress, Black Canary and Renee Montoya to defeat a gangster and protect a girl.",
+  "trailer": "https://www.youtube.com/embed/kGM4uYZzfu0"
+ }
+]

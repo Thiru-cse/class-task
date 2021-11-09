@@ -1,38 +1,106 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100%;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  /* height:100vh; 
+   display:flex;
+  align-items:center;
+  justify-content: center; 
+  margin: 20px; */
+  /* height: 100vh; */
+  font-family: 'Poppins', sans-serif;
+   /* background-image: linear-gradient(
+    to bottom right ,
+    #4affde 0% , #5b9dff 40% , #d06bff 60% , #ff34d2 100%
+  );
+  background-size: 200% 200%;
+  animation: movingGradient 3s linear infinite alternate ; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.movie-list{
+  padding: 25px;
+  display:flex;
+  /* align-items:center;
+  justify-content: center;
+  flex-direction: column; */
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.movie-container{
+  width: 340px;
+}
+.movie-poster{
+  height: 500px;
+  width: 340px;
+  object-fit: cover;
+}
+.movie-specs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   }
+.movie-rating{
+  font-size: 18px;
+  font-weight: bold;
+}
+.movie-name{
+  font-size: 24px;
+  font-weight: bold;
+ margin: 0 ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counter-container{
+  display: flex;
+  gap: 10px;
+}
+
+.like-dislike{
+ font-size: 18px;
+}
+.movie-show-button{
+display: flex;
+margin-bottom: 10px;
+font-size:20px;
+}
+.add-movie-form{
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  gap: 10px;
+}
+.not-found{
+  text-align: center;
+  font-size: 56px;
+  margin: 0;
+}
+.movie-detail-container{
+  max-width: 50rem;
+  padding: 1rem;
+ 
+}
+.game-box{
+  height: 8rem;
+  width: 8rem;
+  color: black;
+  background-color: white;
+  display: flex;
+  font-size: 7rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: min-content;
+  background-color: blueviolet;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* @keyframes movingGradient{
+  from{background-position: 0 0;}
+  to{background-position: 100% 100%;}
+} */
